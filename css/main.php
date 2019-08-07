@@ -1,15 +1,7 @@
-/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
-
-/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+<?php
+header('content-type: text/css');
+// etc.
+?>
 
 @font-face {
   font-family: 'Montserrat';
@@ -50,6 +42,13 @@ em {
 table {
 
  border-style: dashed;
+}
+
+.circle {
+  background: #1e5eff;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 /*
@@ -297,4 +296,6 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+
+
 }
